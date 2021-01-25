@@ -1,7 +1,8 @@
+import Footer from "./components/Footer";
 const SignUpPage = () => {
   return (
     //   SignUpPage
-    <div className="flex flex-col items-center justify-center mb-5">
+    <div className="flex flex-col items-center justify-center">
       <img
         className="w-40  h-32 object-fill"
         src="http://pngimg.com/uploads/amazon/amazon_PNG21.png"
@@ -91,16 +92,7 @@ const SignUpPage = () => {
       <div className="w-full h-0.5 mt-7">
         <div className=" bg-gray-300 h-0.5 w-full shadow "></div>
       </div>
-      <footer className="bg-gray-100 w-full">
-        <ul className="flex content-between my-4 ">
-          <li className="  text-xs text-blue-600"> Conditions of Use </li>
-          <li className=" pl-5 text-xs text-blue-600">Privacy Notice </li>
-          <li className=" pl-5 text-xs text-blue-600">Help</li>
-        </ul>
-        <small className="text-xs">
-          © 1996-2021, Amazon.com, Inc. or its affiliates
-        </small>
-      </footer>
+      <Footer />
     </div>
   );
 };
