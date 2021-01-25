@@ -7,7 +7,7 @@ const SignUpPage = () => {
         src="http://pngimg.com/uploads/amazon/amazon_PNG21.png"
         alt="Logo"
       />
-      <div className="border-gray-200 border-solid border-2 rounded p-5 shadow-sm w-96 ">
+      <form className="border-gray-200 border-solid border-2 rounded p-5 shadow-sm w-96 ">
         <h1 className=" text-2xl font-medium my-3">Create account</h1>
 
         <div className="flex flex-col mb-2">
@@ -17,7 +17,7 @@ const SignUpPage = () => {
           <input
             type="text"
             className="border-solid border-gray-400 border-2 rounded py-1 px-3 
-             focus:outline-none text-sm focus:border-yellow-500 focus:shadow-md"
+               focus:outline-none text-sm focus:border-yellow-500 focus:shadow-outline"
           />
         </div>
 
@@ -62,8 +62,10 @@ const SignUpPage = () => {
           />
         </div>
 
-        <button className="px-14 py-1 border border-solid border-black
-         bg-yellow-300 text-sm font-medium rounded mt-2 w-full hover:opacity-50 ">
+        <button
+          className="px-14 py-1 border border-solid border-black
+         bg-yellow-300 text-sm font-medium rounded mt-2 w-full hover:opacity-50 "
+        >
           Create your Amazon account
         </button>
 
@@ -84,17 +86,21 @@ const SignUpPage = () => {
           Purchasing for work?
           <span className="text-blue-600"> Create a business account</span>
         </p>
-      </div>
+      </form>
 
-      <div className="my-9 px-32 w-full h-0.5">
+      <div className="w-full h-0.5 mt-7">
         <div className=" bg-gray-300 h-0.5 w-full shadow "></div>
       </div>
-      <ul className="flex content-between my-4">
-        <li className="  text-xs text-blue-600"> Conditions of Use </li>
-        <li className=" pl-5 text-xs text-blue-600">Privacy Notice </li>
-        <li className=" pl-5 text-xs text-blue-600">Help</li>
-      </ul>
-      <small className="text-xs">© 1996-2021, Amazon.com, Inc. or its affiliates</small>
+      <footer className="bg-gray-100 w-full">
+        <ul className="flex content-between my-4 ">
+          <li className="  text-xs text-blue-600"> Conditions of Use </li>
+          <li className=" pl-5 text-xs text-blue-600">Privacy Notice </li>
+          <li className=" pl-5 text-xs text-blue-600">Help</li>
+        </ul>
+        <small className="text-xs">
+          © 1996-2021, Amazon.com, Inc. or its affiliates
+        </small>
+      </footer>
     </div>
   );
 };
