@@ -7,7 +7,7 @@ const SignUpPage = () => {
         src="http://pngimg.com/uploads/amazon/amazon_PNG21.png"
         alt="Logo"
       />
-      <div className="border-gray-400 border-solid border rounded p-5">
+      <div className="border-gray-200 border-solid border-2 rounded p-5 shadow-sm">
         <h1 className=" text-2xl font-medium my-3">Create account</h1>
 
         <div className="flex flex-col mb-2">
