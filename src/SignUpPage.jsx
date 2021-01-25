@@ -62,7 +62,8 @@ const SignUpPage = () => {
           />
         </div>
 
-        <button className="px-14 py-1 border border-solid border-black bg-yellow-300 text-sm font-medium rounded mt-2 w-full">
+        <button className="px-14 py-1 border border-solid border-black
+         bg-yellow-300 text-sm font-medium rounded mt-2 w-full hover:opacity-50 ">
           Create your Amazon account
         </button>
 
@@ -89,7 +90,7 @@ const SignUpPage = () => {
         <div className=" bg-gray-300 h-0.5 w-full shadow "></div>
       </div>
       <ul className="flex content-between my-4">
-        <li className=" pl-5 text-xs text-blue-600"> Conditions of Use </li>
+        <li className="  text-xs text-blue-600"> Conditions of Use </li>
         <li className=" pl-5 text-xs text-blue-600">Privacy Notice </li>
         <li className=" pl-5 text-xs text-blue-600">Help</li>
       </ul>
