@@ -91,7 +91,7 @@ const SignUpPage = () => {
       </form>
 
       <div className="w-full h-0.5 mt-7">
-        <div className=" bg-gray-300 h-0.5 w-full shadow "></div>
+        <div className=" bg-gray-200 h-0.5 w-full shadow "></div>
       </div>
       <CustomFooter />
     </div>

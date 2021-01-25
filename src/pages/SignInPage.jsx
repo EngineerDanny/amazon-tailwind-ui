@@ -22,7 +22,7 @@ const SignInPage = () => {
             Email or mobile phone number
           </label>
           <input
-            type="email | text"
+            type="email"
             className="border-solid border-gray-400 border-2 rounded py-1 px-3 
             focus:outline-none text-sm focus:border-yellow-500 focus:shadow-outline"
           />
@@ -35,12 +35,14 @@ const SignInPage = () => {
           Continue
         </button>
 
-        <p className="mt-4 text-sm">
+        <p className="mt-4 text-sm mb-3">
           By continuing, you agree to Amazon's
           <span className=" text-blue-600"> Conditions of Use</span> and
           <span className=" text-blue-600"> Privacy Notice.</span>
         </p>
+        <small className="text-blue-600 ">Need help?</small>
       </form>
+
       <div className="flex items-center my-4">
         <div className=" bg-gray-100 h-0.5 w-32 "></div>
         <small className="mx-3 text-gray-600">New to Amazon?</small>
@@ -49,16 +51,17 @@ const SignInPage = () => {
 
       <button
         className="px-24  py-1 border border-solid border-black
-          bg-gray-200 text-sm font-medium rounded hover:opacity-70 mb-7"
+          bg-gray-200 text-sm font-medium rounded hover:opacity-70"
       >
         Create your Amazon account
       </button>
 
       <div className="w-full h-0.5 mt-7">
-        <div className=" bg-gray-300 h-0.5 w-full"></div>
+        <div className=" bg-gray-200 h-0.5 w-full"></div>
       </div>
-
-      <CustomFooter />
+      <div className="w-full h-56">
+        <CustomFooter />
+      </div>
     </div>
   );
 };
