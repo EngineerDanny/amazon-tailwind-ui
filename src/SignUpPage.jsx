@@ -84,6 +84,16 @@ const SignUpPage = () => {
           <span className="text-blue-600"> Create a business account</span>
         </p>
       </div>
+
+      <div className="my-9 px-32 w-full h-0.5">
+        <div className=" bg-gray-300 h-0.5 w-full shadow "></div>
+      </div>
+      <ul className="flex content-between my-4">
+        <li className=" pl-5 text-xs text-blue-600"> Conditions of Use </li>
+        <li className=" pl-5 text-xs text-blue-600">Privacy Notice </li>
+        <li className=" pl-5 text-xs text-blue-600">Help</li>
+      </ul>
+      <small className="text-xs">© 1996-2021, Amazon.com, Inc. or its affiliates</small>
     </div>
   );
 };
