@@ -50,7 +50,7 @@ const SignInPage = () => {
       </div>
 
       <button
-        className="px-24  py-1 border border-solid border-black
+        className="px-24  py-1.5 border border-solid border-black
           bg-gray-200 text-sm font-medium rounded hover:opacity-70"
       >
         Create your Amazon account
