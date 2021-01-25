@@ -29,6 +29,7 @@ const SignUpPage = () => {
             name="Email"
             className="border-solid border-gray-400 border-2 rounded py-1 px-3 focus:outline-none text-sm"
           />
+          <small className="text-xs  mt-1">Passwords must be at least 6 characters.</small>
         </div>
 
         <div className="flex flex-col  mb-2">
@@ -59,16 +60,21 @@ const SignUpPage = () => {
         </button>
 
         <p className="mt-4 text-sm">
-          By creating an account, you agree to Amazon's Conditions of Use and
-          Privacy Notice.
+          By creating an account, you agree to Amazon's
+          <span className=" text-blue-600"> Conditions of Use</span> and
+          <span className=" text-blue-600"> Privacy Notice.</span>
         </p>
 
         <div className=" bg-gray-200  h-0.5 shadow mx-10 my-5"></div>
 
-        <p className="text-sm">Already have an account? Sign-In</p>
+        <p className="text-sm">
+          Already have an account?
+          <span className="text-blue-600"> Sign-In</span>
+        </p>
 
         <p className="text-sm">
-          Purchasing for work? Create a business account
+          Purchasing for work?
+          <span className="text-blue-600"> Create a business account</span>
         </p>
       </div>
     </div>
