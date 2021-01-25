@@ -41,17 +41,23 @@ const SignInPage = () => {
           <span className=" text-blue-600"> Privacy Notice.</span>
         </p>
       </form>
-      <div>
-    
-        <small>New to Amazon?</small>
+      <div className="flex items-center my-4">
+        <div className=" bg-gray-100 h-0.5 w-32 "></div>
+        <small className="mx-3 text-gray-600">New to Amazon?</small>
+        <div className=" bg-gray-100 h-0.5 w-32 "></div>
       </div>
 
       <button
         className="px-24  py-1 border border-solid border-black
-          bg-gray-200 text-sm font-medium rounded mt-2 hover:opacity-70 mb-7"
+          bg-gray-200 text-sm font-medium rounded hover:opacity-70 mb-7"
       >
         Create your Amazon account
       </button>
+
+      <div className="w-full h-0.5 mt-7">
+        <div className=" bg-gray-300 h-0.5 w-full"></div>
+      </div>
+
       <CustomFooter />
     </div>
   );

@@ -64,6 +64,7 @@ const SignUpPage = () => {
         </div>
 
         <button
+          type="button"
           className="px-14 py-1 border border-solid border-black
          bg-yellow-300 text-sm font-medium rounded mt-2 w-full hover:opacity-50 "
         >
