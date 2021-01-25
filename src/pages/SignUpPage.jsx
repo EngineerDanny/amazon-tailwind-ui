@@ -1,4 +1,4 @@
-import Footer from "./components/Footer";
+import CustomFooter from "../components/CustomFooter";
 const SignUpPage = () => {
   return (
     //   SignUpPage
@@ -92,7 +92,7 @@ const SignUpPage = () => {
       <div className="w-full h-0.5 mt-7">
         <div className=" bg-gray-300 h-0.5 w-full shadow "></div>
       </div>
-      <Footer />
+      <CustomFooter />
     </div>
   );
 };
