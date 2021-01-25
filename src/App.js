@@ -1,8 +1,6 @@
+import SignUpPage from "./SignUpPage";
 function App() {
-  return (
-    <div className="App">
-    </div>
-  );
+  return <SignUpPage />;
 }
 
 export default App;
