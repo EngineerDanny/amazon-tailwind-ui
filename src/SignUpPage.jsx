@@ -16,7 +16,8 @@ const SignUpPage = () => {
           </label>
           <input
             type="text"
-            className="border-solid border-gray-400 border-2 rounded py-1 px-3  focus:outline-none text-sm"
+            className="border-solid border-gray-400 border-2 rounded py-1 px-3 
+             focus:outline-none text-sm focus:border-yellow-500 focus:shadow-md"
           />
         </div>
 
@@ -27,9 +28,13 @@ const SignUpPage = () => {
           <input
             type="email"
             name="Email"
-            className="border-solid border-gray-400 border-2 rounded py-1 px-3 focus:outline-none text-sm"
+            className="border-solid border-gray-400 border-2 
+            rounded py-1 px-3 focus:outline-none text-sm 
+            focus:border-yellow-500 focus:shadow-md"
           />
-          <small className="text-xs  mt-1">Passwords must be at least 6 characters.</small>
+          <small className="text-xs  mt-1">
+            Passwords must be at least 6 characters.
+          </small>
         </div>
 
         <div className="flex flex-col  mb-2">
@@ -40,7 +45,8 @@ const SignUpPage = () => {
             type="password"
             name="Password"
             placeholder="At least 6 characters"
-            className="border-solid border-gray-400 border-2 rounded py-1 px-3 focus:outline-none text-sm"
+            className="border-solid border-gray-400 border-2 rounded py-1 px-3 
+            focus:outline-none text-sm focus:border-yellow-500 focus:shadow-md"
           />
         </div>
 
@@ -51,11 +57,12 @@ const SignUpPage = () => {
           <input
             type="password"
             name="Password"
-            className="border-solid border-gray-400 border-2 rounded py-1 px-3 focus:outline-none text-sm"
+            className="border-solid border-gray-400 border-2 rounded 
+            py-1 px-3 focus:outline-none text-sm focus:border-yellow-500 focus:shadow-md"
           />
         </div>
 
-        <button className="px-14 py-1 border border-solid border-black bg-yellow-400 text-sm font-semibold rounded mt-2 w-full">
+        <button className="px-14 py-1 border border-solid border-black bg-yellow-300 text-sm font-medium rounded mt-2 w-full">
           Create your Amazon account
         </button>
 
