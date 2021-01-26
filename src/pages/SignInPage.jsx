@@ -5,7 +5,7 @@ const SignInPage = () => {
   return (
     <div className="flex flex-col items-center justify-center">
       <img
-        className="w-40  h-32 object-fill"
+        className="w-28  h-32 object-fill -mt-5 -mb-6"
         src="http://pngimg.com/uploads/amazon/amazon_PNG21.png"
         alt="Logo"
       />
