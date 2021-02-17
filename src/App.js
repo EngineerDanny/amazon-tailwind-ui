@@ -3,7 +3,7 @@ import SignInPage from "./pages/SignInPage";
 import MainPage from "./pages/MainPage";
 
 function App() {
-  return <MainPage />;
+  return <SignInPage />;
 }
 
 export default App;
