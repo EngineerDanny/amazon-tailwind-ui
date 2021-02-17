@@ -9,7 +9,6 @@ const SignInPage = () => {
         src="http://pngimg.com/uploads/amazon/amazon_PNG21.png"
         alt="Logo"
       />
-
       <form
         action="submit"
         className="border-gray-200 border-solid border-2 
